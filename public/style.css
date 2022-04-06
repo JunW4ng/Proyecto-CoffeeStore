@@ -1,0 +1,23 @@
+.nav {
+    background-color:rgb(173, 1, 241);
+}
+
+/* Mensaje superior */
+.message {
+    background-color: black;
+}
+
+/* Carousel */
+.carouselImg {
+    height: 800px;
+}
+
+/* Newsletter */
+.newLetter, .newLetterForm {
+    display: inline-flexbox;
+}
+
+.newLetterInput {
+    width: 50%;
+    align-items: center;
+}
