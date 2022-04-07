@@ -1,5 +1,5 @@
 .nav {
-    background-color:rgb(173, 1, 241);
+    background-color:beige;
 }
 
 /* Mensaje superior */
@@ -9,15 +9,31 @@
 
 /* Carousel */
 .carouselImg {
-    height: 800px;
+    margin: auto;
+    height: 650px;
+    width: 200px;
 }
 
 /* Newsletter */
-.newLetter, .newLetterForm {
-    display: inline-flexbox;
+.newLetter {
+    width: 550px;
 }
 
-.newLetterInput {
-    width: 50%;
-    align-items: center;
+.newLetter, .letterText{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.letterDiv {
+    background-color: aqua;
+}
+
+/* Footer */
+footer {
+    background-color: beige;
+}
+
+.footer-text, .social-media{
+    vertical-align: middle;
+    display: inline-block;
 }
